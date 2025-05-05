@@ -3,8 +3,8 @@ import { karla } from "@/styles/fonts";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Frontend Mentor - Starter",
-  description: "Revised after create next app",
+  title: "Frontend Mentor - Single price grid component",
+  description: "A Frontend Mentor challenge project",
 };
 
 export default function RootLayout({

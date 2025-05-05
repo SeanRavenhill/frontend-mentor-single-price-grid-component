@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --primaryWhite: hsla(0, 0%, 100%, 100%); /* #FFFFFF */
-  --primaryCyan: hsla(179, 62%, 43%, 100%); /* #2AB3B1 */
-  --primaryYellow: hsla(71, 73%, 54%, 100%); /* #C0DF33 */
-  --neutralGray: hsla(204, 43%, 93%, 100%); /* #E6EFF5 */
-  --neutralBlue: hsla(218, 22%, 67%, 100%); /* #9AA7BE */
+  --color-primaryWhite: hsla(0, 0%, 100%, 100%); /* #FFFFFF */
+  --color-primaryCyan: hsla(179, 62%, 43%, 100%); /* #2AB3B1 */
+  --color-primaryYellow: hsla(71, 73%, 54%, 100%); /* #C0DF33 */
+  --color-neutralGray: hsla(204, 43%, 93%, 100%); /* #E6EFF5 */
+  --color-neutralBlue: hsla(218, 22%, 67%, 100%); /* #9AA7BE */
 }
 
 body {
   font-size: 1rem;
-  background: var(--neutralGray);
-  color: var(--primaryWhite);
+  background: var(--color-neutralGray);
+  color: var(--color-primaryWhite);
   font-family: Arial, Helvetica, sans-serif;
 }
