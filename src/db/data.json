@@ -1,0 +1,25 @@
+{
+  "grid-header": {
+    "title": "Join our community",
+    "sub-title": "30-day, hassle-free money back guarantee",
+    "copy": "Gain access to our full library of tutorials along with expert code reviews.\nPerfect for any developers who are serious about honing their skills."
+  },
+  "pricing-card": {
+    "title": "Monthly Subscription",
+    "price": "$29",
+    "term": "per months",
+    "caption": "Full access for less than $1 a day"
+  },
+  "features-card": {
+    "title": "Why Us",
+    "list-items": [
+      "Tutorials by industry experts",
+      "Peer & expert code review",
+      "Coding exercises",
+      "Access to our GitHub repos",
+      "Community forum",
+      "Flashcard decks",
+      "New videos every week"
+    ]
+  }
+}
