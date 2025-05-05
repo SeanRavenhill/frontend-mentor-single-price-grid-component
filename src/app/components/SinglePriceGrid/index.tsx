@@ -1,14 +1,20 @@
+"use client";
+
 import { GridHeader } from "./GridHeader";
 import { PricingCard } from "./PricingCard";
 import { FeaturesCard } from "./FeaturesCard";
+import { GridData } from "@/db/data";
 
 interface SinglePriceGridProps {
-  data: any;
+  data: GridData;
 }
 
 export default function SinglePriceGrid({ data }: SinglePriceGridProps) {
   return (
-    <div className="mx-8 mt-[4.5rem] mb-[3.875rem] grid w-full max-w-[40rem] grid-cols-4 overflow-hidden rounded-md shadow-[0px_15px_30px_0px_rgba(0,81,171,0.15)] sm:rounded-lg">
+    <div
+      aria-labelledby="grid-header-title"
+      className="mx-8 mt-[4.5rem] mb-[3.875rem] grid w-full max-w-[40rem] grid-cols-4 overflow-hidden rounded-md shadow-[0px_15px_30px_0px_rgba(0,81,171,0.15)] sm:rounded-lg"
+    >
       <GridHeader
         title={data["grid-header"]["title"]}
         subTitle={data["grid-header"]["sub-title"]}

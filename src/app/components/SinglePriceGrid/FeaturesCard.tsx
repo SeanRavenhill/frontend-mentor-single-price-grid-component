@@ -1,6 +1,6 @@
 interface FeaturesCardProps {
   title: string;
-  listItems: any;
+  listItems: string[];
 }
 
 export function FeaturesCard({ title, listItems }: FeaturesCardProps) {
@@ -11,8 +11,8 @@ export function FeaturesCard({ title, listItems }: FeaturesCardProps) {
         {title}
       </h3>
       <ul className="text-primaryWhite text-sm leading-[1.25rem] font-normal opacity-75">
-        {listItems.map((item: string, id: string) => (
-          <li key={id}>{item}</li>
+        {listItems.map((item, idx) => (
+          <li key={idx}>{item}</li>
         ))}
       </ul>
     </div>
